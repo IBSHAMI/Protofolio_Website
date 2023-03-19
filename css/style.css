@@ -1,3 +1,41 @@
-body {
+/* css variables */
+@import url(./partials/_variables.css);
+
+#body-bg-color {
   background-color: #e6e7ee;
 }
+
+/* start navigation styles */
+
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar {
+  margin: 16px 170px;
+  padding: 0 15px;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--Nunito);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  font-weight: 500;
+  color: var(--primary-color-2);
+}
+
+.header-area .main-menu .navbar-nav .active {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* end navigation styles */
